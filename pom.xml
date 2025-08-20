@@ -95,9 +95,12 @@
 				
 					</execution>
 				</executions>
-				<!--<configuration>
+				
+
+				
+				<configuration>
 					<destFile>${sonar.jacoco.reportPath}</destFile>
-				</configuration>-->
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
