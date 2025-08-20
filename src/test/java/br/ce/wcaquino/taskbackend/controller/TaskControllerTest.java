@@ -23,10 +23,12 @@ public class TaskControllerTest {
 	@InjectMocks
 	TaskController taskController;
 	
-	@Before
-	public  void setup() {
-		MockitoAnnotations.initMocks(this);
-	}
+
+	
+    @Before 
+    public void initMocks() {
+        MockitoAnnotations.initMocks(this);
+    }
 	
 	@Test
 	public void testSave_TaskWithoutDescription_RaisesException() {
