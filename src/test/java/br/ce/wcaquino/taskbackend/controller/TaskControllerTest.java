@@ -92,7 +92,7 @@ public class TaskControllerTest {
 	}
 	
 	@Test
-	public void testSaveTaskSuccessful() throws ValidationException {
+	public void testSave_TaskSuccessful() throws ValidationException {
 		
 		Task todo = new Task(); 		
 		todo.setTask("Descrição");		
